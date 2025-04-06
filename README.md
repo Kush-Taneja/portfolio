@@ -1,6 +1,6 @@
 # Kush Taneja's Portfolio
 
-A personal portfolio website built with React, TypeScript, and Tailwind CSS.
+A personal portfolio website built with React, JavaScript, and Tailwind CSS.
 
 ## Live Website
 Check out the live version of my portfolio: [https://portfolio-gamma-pied-99.vercel.app/](https://portfolio-gamma-pied-99.vercel.app/)
@@ -22,7 +22,7 @@ This portfolio website showcases my skills, projects, and background as a Comput
 ## Technologies Used
 
 - React
-- TypeScript
+- JavaScript
 - Tailwind CSS
 - Framer Motion for animations
 - React Icons

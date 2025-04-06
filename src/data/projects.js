@@ -1,20 +1,14 @@
-export interface Project {
-  id: number;
-  title: string;
-  description: string;
-  image: string;
-  technologies: string[];
-  githubLink: string;
-  demoLink: string;
-}
+/**
+ * Project data for the portfolio
+ */
 
-const projects: Project[] = [
+const projects = [
   {
     id: 1,
     title: "Portfolio Website",
-    description: "Modern, responsive developer portfolio built with React, TypeScript, and Tailwind CSS. Features smooth animations, dark/light mode, and responsive design.",
+    description: "Modern, responsive developer portfolio built with React, JavaScript, and Tailwind CSS. Features smooth animations, dark/light mode, and responsive design.",
     image: "/images/portfolio.jpg",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    technologies: ["React", "JavaScript", "Tailwind CSS", "Framer Motion"],
     githubLink: "https://github.com/yourusername/portfolio",
     demoLink: "https://yourusername.vercel.app",
   },

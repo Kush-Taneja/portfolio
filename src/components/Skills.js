@@ -6,7 +6,7 @@ const skills = [
   { name: 'JavaScript', icon: 'FiCode', category: 'frontend' },
   { name: 'React', icon: 'FiLayers', category: 'frontend' },
   { name: 'Node.js', icon: 'FiServer', category: 'backend' },
-  { name: 'TypeScript', icon: 'FiFileText', category: 'frontend' },
+  { name: 'JavaScript (ES6+)', icon: 'FiFileText', category: 'frontend' },
   { name: 'HTML/CSS', icon: 'FiLayout', category: 'frontend' },
   { name: 'SQL', icon: 'FiDatabase', category: 'backend' },
   { name: 'Git', icon: 'FiGitBranch', category: 'tools' },

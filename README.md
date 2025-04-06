@@ -2,6 +2,9 @@
 
 A personal portfolio website built with React, TypeScript, and Tailwind CSS.
 
+## Live Website
+Check out the live version of my portfolio: [https://portfolio-gamma-pied-99.vercel.app/](https://portfolio-gamma-pied-99.vercel.app/)
+
 ## Overview
 
 This portfolio website showcases my skills, projects, and background as a Computer Science and AI student at NSUT. It features a responsive design, dark mode, and smooth animations.
@@ -62,7 +65,7 @@ This builds the app for production to the `build` folder.
 
 ## Deployment
 
-This site can be easily deployed on platforms like Vercel, Netlify, or GitHub Pages.
+This site is deployed on Vercel. You can also deploy it on platforms like Netlify or GitHub Pages.
 
 ## License
 

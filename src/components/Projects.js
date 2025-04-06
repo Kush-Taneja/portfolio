@@ -16,7 +16,7 @@ const projects = [
   },
 ];
 
-const Projects: React.FC = () => {
+const Projects = () => {
   return (
     <section id="projects" className="py-20">
       <div className="container">

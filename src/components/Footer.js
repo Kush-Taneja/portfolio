@@ -2,7 +2,7 @@ import React from 'react';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import IconWrapper from './IconWrapper';
 
-const Footer: React.FC = () => {
+const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { FiGithub, FiLinkedin, FiDownload } from 'react-icons/fi';
 import IconWrapper from './IconWrapper';
 
-const Hero: React.FC = () => {
+const Hero = () => {
   return (
     <section id="hero" className="min-h-screen flex items-center">
       <div className="container">

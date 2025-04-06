@@ -3,14 +3,13 @@ import { Link } from 'react-scroll';
 import { FiMoon, FiSun, FiMenu, FiX } from 'react-icons/fi';
 import IconWrapper from './IconWrapper';
 
-interface NavbarProps {
-  darkMode: boolean;
-  toggleDarkMode: () => void;
-}
-
-const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
+const Navbar = ({ darkMode, setDarkMode }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);

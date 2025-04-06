@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import Navbar from './js-components/Navbar';
-import Hero from './js-components/Hero';
-import About from './js-components/About';
-import Skills from './js-components/Skills';
-import Projects from './js-components/Projects';
-import Contact from './js-components/Contact';
-import Footer from './js-components/Footer';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { FiMail, FiSend, FiUser } from 'react-icons/fi';
 import IconWrapper from './IconWrapper';
 
-const Contact: React.FC = () => {
+const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -55,7 +55,7 @@ const Contact: React.FC = () => {
     return isValid;
   };
   
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -63,7 +63,7 @@ const Contact: React.FC = () => {
     });
     
     // Clear error when user types
-    if (errors[name as keyof typeof errors]) {
+    if (errors[name]) {
       setErrors({
         ...errors,
         [name]: ''
@@ -71,7 +71,7 @@ const Contact: React.FC = () => {
     }
   };
   
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     
     if (validateForm()) {

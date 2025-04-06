@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const About: React.FC = () => {
+const About = () => {
   return (
     <section id="about" className="py-20 bg-slate-100 dark:bg-slate-800">
       <div className="container">

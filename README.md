@@ -3,7 +3,7 @@
 A personal portfolio website built with React, JavaScript, and Tailwind CSS.
 
 ## Live Website
-Check out the live version of my portfolio: [https://portfolio-gamma-pied-99.vercel.app/](https://portfolio-gamma-pied-99.vercel.app/)
+Check out the live version of my portfolio: [https://kush-taneja-portfolio.vercel.app/](https://kush-taneja-portfolio.vercel.app/)
 
 ## Overview
 

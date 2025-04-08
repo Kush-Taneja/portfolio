@@ -49,7 +49,7 @@ const Hero = () => {
           </div>
           
           <motion.a
-            href="/resume.pdf"
+            href="/Kush_Resume.pdf"
             download
             className="btn btn-primary inline-flex items-center"
             whileHover={{ scale: 1.05 }}
